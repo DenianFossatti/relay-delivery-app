@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authMiddleware should allow requests with token scope being TOKEN_SCOPES.SESSION 1`] = `
+Object {
+  "data": Object {
+    "me": Object {
+      "email": "user1@example.com",
+    },
+  },
+}
+`;
+
+exports[`authMiddleware should not allow requests if token has different scope than SESSION 1`] = `
+Object {
+  "data": null,
+  "errors": Array [
+    Object {
+      "key": "invalid_session",
+      "message": "Invalid token.",
+      "severity": "WARNING",
+    },
+  ],
+}
+`;
+
+exports[`authMiddleware should not allow requests with blocked token 1`] = `
+Object {
+  "data": null,
+  "errors": Array [
+    Object {
+      "key": "invalid_session",
+      "message": "Invalid session.",
+      "severity": "WARNING",
+    },
+  ],
+}
+`;

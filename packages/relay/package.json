@@ -1,0 +1,16 @@
+{
+  "name": "@workspace/relay",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "react": "0.0.0-experimental-7ec4c5597",
+    "react-relay": "11.0.2",
+    "relay-runtime": "11.0.2"
+  },
+  "devDependencies": {
+    "@types/react-relay": "^11.0.1",
+    "@types/relay-runtime": "^11.0.0"
+  }
+}

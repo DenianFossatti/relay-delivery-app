@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/ScrollView render component #View_ScrollView 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTScrollView
+    accessible={false}
+    contentContainerStyle={
+      [
+        {},
+        {
+          "dataSet": {},
+        },
+        {},
+      ]
+    }
+    dataSet={{}}
+    style={{}}
+    testID="View_ScrollView"
+  >
+    <View>
+      <Text
+        accessible={false}
+        dataSet={{}}
+        style={
+          {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 14,
+            "fontStyle": undefined,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+        testID="Text_Text"
+      >
+        Oi
+      </Text>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaProvider>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/SafeAreaView render component #View_SafeAreaView 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaView
+    accessible={false}
+    edges={
+      [
+        "bottom",
+        "left",
+        "right",
+        "top",
+      ]
+    }
+    style={
+      {
+        "backgroundColor": "#fff",
+        "flex": 1,
+      }
+    }
+    testID="View_SafeAreaView"
+  />
+</RNCSafeAreaProvider>
+`;

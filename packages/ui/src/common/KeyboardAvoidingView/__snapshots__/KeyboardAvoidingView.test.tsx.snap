@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/KeyboardAvoidingView render component #View_KeyboardAvoidingView 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={false}
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+          "paddingBottom": 0,
+        },
+        {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+    testID="View_KeyboardAvoidingView"
+  />
+</RNCSafeAreaProvider>
+`;

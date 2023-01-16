@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TokenLoader should only load me valid token 1`] = `
+Object {
+  "__v": 0,
+  "_id": "ObjectId",
+  "createdAt": "FROZEN-CREATEDAT",
+  "expiresIn": "EMPTY",
+  "id": "FROZEN-ID",
+  "ip": "::ffff:127.0.0.1",
+  "isActive": true,
+  "isBlocked": false,
+  "platform": "APP",
+  "scope": "DELIVERYAPP:SESSION",
+  "updatedAt": "FROZEN-UPDATEDAT",
+  "userId": "ObjectId",
+}
+`;

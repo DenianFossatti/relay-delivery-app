@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/Select render component #Select_Select 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    dataSet={{}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHoverIn={[Function]}
+    onHoverOut={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={{}}
+  >
+    <View
+      dataSet={{}}
+      isFocused={false}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#d4d4d4",
+          "borderRadius": 4,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "overflow": "hidden",
+        }
+      }
+    >
+      <TextInput
+        accessible={false}
+        aria-hidden={true}
+        dataSet={{}}
+        editable={false}
+        focusable={false}
+        importantForAccessibility="no"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Select an option"
+        placeholderTextColor="#a3a3a3"
+        pointerEvents="none"
+        secureTextEntry={false}
+        selection={
+          {
+            "start": 0,
+          }
+        }
+        style={
+          {
+            "backgroundColor": "transparent",
+            "color": "#323232",
+            "flex": 1,
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontStyle": undefined,
+            "fontWeight": undefined,
+            "height": "100%",
+            "paddingBottom": 12,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 12,
+            "width": "100%",
+          }
+        }
+        testID="Select_Select"
+        value=""
+      />
+      <View
+        dataSet={{}}
+        style={{}}
+      />
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={24}
+        bbWidth={24}
+        color={4285756275}
+        dataSet={{}}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {
+              "color": "#737373",
+              "height": 24,
+              "marginRight": 12,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+              "width": 24,
+            },
+            {
+              "flex": 0,
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+        tintColor={4285756275}
+        vbHeight={24}
+        vbWidth={24}
+      >
+        <RNSVGGroup
+          propList={
+            [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M20.2286 6L11.9973 14.3785L3.76862 6.00268L2 7.80293L12 18L22 7.80293L20.2286 6Z"
+              fill={
+                [
+                  2,
+                ]
+              }
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              stroke={null}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "display": "flex",
+          "overflow": "hidden",
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      pointerEvents="none"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "transform": [
+            {
+              "translateY": 0,
+            },
+            {
+              "translateX": 0,
+            },
+            {
+              "scale": 1,
+            },
+            {
+              "scaleX": 1,
+            },
+            {
+              "scaleY": 1,
+            },
+            {
+              "rotate": "0deg",
+            },
+          ],
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        focusable={true}
+        importantForAccessibility="no"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "rgb(0, 0, 0)",
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0.3,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      collapsable={false}
+      pointerEvents="none"
+      style={
+        {
+          "bottom": 0,
+          "height": "100%",
+          "left": 0,
+          "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "transform": [
+            {
+              "translateY": 0,
+            },
+            {
+              "translateX": 0,
+            },
+            {
+              "scale": 1,
+            },
+            {
+              "scaleX": 1,
+            },
+            {
+              "scaleY": 1,
+            },
+            {
+              "rotate": "0deg",
+            },
+          ],
+        }
+      }
+    >
+      <View
+        dataSet={{}}
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={
+          {
+            "height": "100%",
+            "opacity": 0,
+          }
+        }
+      >
+        <View
+          closeOnOverlayClick={true}
+          dataSet={{}}
+          pointerEvents="box-none"
+          style={
+            {
+              "alignItems": "center",
+              "height": "100%",
+              "justifyContent": "flex-end",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            onLayout={[Function]}
+            pointerEvents="box-none"
+            style={
+              {
+                "transform": [
+                  {
+                    "translateY": 0,
+                  },
+                ],
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              dataSet={{}}
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              style={
+                {
+                  "paddingBottom": 8,
+                  "paddingTop": 8,
+                }
+              }
+            />
+            <View
+              accessibilityViewIsModal={true}
+              aria-modal="true"
+              dataSet={{}}
+              onAccessibilityEscape={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fafafa",
+                  "borderRadius": 0,
+                  "borderTopLeftRadius": 20,
+                  "borderTopRightRadius": 20,
+                  "elevation": 2,
+                  "maxHeight": 1184,
+                  "overflow": "hidden",
+                  "paddingBottom": 8,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingTop": 8,
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.2,
+                  "shadowRadius": 1.41,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                dataSet={{}}
+                onMoveShouldSetResponder={[Function]}
+                onMoveShouldSetResponderCapture={[Function]}
+                onResponderEnd={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderReject={[Function]}
+                onResponderRelease={[Function]}
+                onResponderStart={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onStartShouldSetResponderCapture={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "marginTop": -8,
+                    "paddingBottom": 12,
+                    "paddingTop": 12,
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  dataSet={{}}
+                  style={
+                    {
+                      "backgroundColor": "#737373",
+                      "borderRadius": 2,
+                      "height": 4,
+                      "width": 40,
+                    }
+                  }
+                />
+              </View>
+              <RCTScrollView
+                contentContainerStyle={
+                  [
+                    {},
+                    {
+                      "dataSet": {},
+                    },
+                    {},
+                  ]
+                }
+                data={
+                  [
+                    {
+                      "accessible": false,
+                      "label": "Option 1",
+                      "testID": "Select_Select_item_0",
+                      "value": "1",
+                    },
+                    {
+                      "accessible": false,
+                      "label": "Option 2",
+                      "testID": "Select_Select_item_1",
+                      "value": "2",
+                    },
+                  ]
+                }
+                dataSet={{}}
+                getItem={[Function]}
+                getItemCount={[Function]}
+                keyExtractor={[Function]}
+                onContentSizeChange={[Function]}
+                onLayout={[Function]}
+                onMomentumScrollBegin={[Function]}
+                onMomentumScrollEnd={[Function]}
+                onScroll={[Function]}
+                onScrollBeginDrag={[Function]}
+                onScrollEndDrag={[Function]}
+                removeClippedSubviews={false}
+                renderItem={[Function]}
+                scrollEventThrottle={50}
+                stickyHeaderIndices={[]}
+                style={
+                  {
+                    "width": "100%",
+                  }
+                }
+                viewabilityConfigCallbackPairs={[]}
+              >
+                <View>
+                  <View
+                    onLayout={[Function]}
+                    style={null}
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "selected": false,
+                        }
+                      }
+                      accessible={false}
+                      collapsable={false}
+                      dataSet={{}}
+                      focusable={true}
+                      label="Option 1"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onHoverIn={[Function]}
+                      onHoverOut={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "backgroundColor": "#fafafa",
+                          "justifyContent": "flex-start",
+                          "paddingBottom": 16,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 16,
+                          "width": "100%",
+                        }
+                      }
+                      testID="Select_Select_item_0"
+                      value="1"
+                    >
+                      <View
+                        dataSet={{}}
+                        style={
+                          {
+                            "flexDirection": "row",
+                          }
+                        }
+                        test={true}
+                      >
+                        <View
+                          dataSet={{}}
+                          style={{}}
+                        >
+                          <Text
+                            dataSet={{}}
+                            style={
+                              {
+                                "backgroundColor": undefined,
+                                "color": "#171717",
+                                "fontFamily": "Quicksand-Regular",
+                                "fontSize": 16,
+                                "fontStyle": undefined,
+                                "fontWeight": undefined,
+                                "letterSpacing": 0,
+                                "lineHeight": 24,
+                                "textDecorationLine": undefined,
+                              }
+                            }
+                          >
+                            Option 1
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    onLayout={[Function]}
+                    style={null}
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "selected": false,
+                        }
+                      }
+                      accessible={false}
+                      collapsable={false}
+                      dataSet={{}}
+                      focusable={true}
+                      label="Option 2"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onHoverIn={[Function]}
+                      onHoverOut={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "backgroundColor": "#fafafa",
+                          "justifyContent": "flex-start",
+                          "paddingBottom": 16,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 16,
+                          "width": "100%",
+                        }
+                      }
+                      testID="Select_Select_item_1"
+                      value="2"
+                    >
+                      <View
+                        dataSet={{}}
+                        style={
+                          {
+                            "flexDirection": "row",
+                          }
+                        }
+                        test={true}
+                      >
+                        <View
+                          dataSet={{}}
+                          style={{}}
+                        >
+                          <Text
+                            dataSet={{}}
+                            style={
+                              {
+                                "backgroundColor": undefined,
+                                "color": "#171717",
+                                "fontFamily": "Quicksand-Regular",
+                                "fontSize": 16,
+                                "fontStyle": undefined,
+                                "fontWeight": undefined,
+                                "letterSpacing": 0,
+                                "lineHeight": 24,
+                                "textDecorationLine": undefined,
+                              }
+                            }
+                          >
+                            Option 2
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </RCTScrollView>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

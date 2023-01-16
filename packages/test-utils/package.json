@@ -1,0 +1,25 @@
+{
+  "name": "@workspace/test-utils",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@koa/router": "^10.0.0",
+    "@types/koa": "^2.13.3",
+    "@types/koa-bodyparser": "^4.3.1",
+    "@types/koa__router": "^8.0.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/supertest": "^2.0.11",
+    "esbuild-jest": "^0.5.0",
+    "graphql-relay": "^0.8.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "mongoose": "^5.13.0",
+    "supertest": "^6.1.3"
+  }
+}

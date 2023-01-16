@@ -1,0 +1,1330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/Input Password render component with variant password #TextInput_Input 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "49.989945099330626%",
+              "transform": [
+                {
+                  "scale": 0.9999597803973225,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": -0.0020109801338741295,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#12F2AA",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={32}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={true}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value="1233"
+        />
+        <View
+          dataSet={{}}
+          style={{}}
+        />
+        <View
+          accessibilityLabel="Exibir senha"
+          accessibilityRole="button"
+          accessible={false}
+          collapsable={false}
+          colorScheme="primary"
+          dataSet={{}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "borderRadius": 9999,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 10,
+            }
+          }
+          testID="Button_Input_securePassword"
+        >
+          <View
+            dataSet={{}}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+            test={true}
+          >
+            <View
+              dataSet={{}}
+              style={{}}
+            >
+              <View
+                accessible={false}
+                testID="Image_Icon"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input Password should find the label about hide password #Button_Input_securePassword 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "50%",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E0E0E0",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={32}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value=""
+        />
+        <View
+          dataSet={{}}
+          style={{}}
+        />
+        <View
+          accessibilityLabel="Esconder senha"
+          accessibilityRole="button"
+          accessible={false}
+          collapsable={false}
+          colorScheme="primary"
+          dataSet={{}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "borderRadius": 9999,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 10,
+            }
+          }
+          testID="Button_Input_securePassword"
+        >
+          <View
+            dataSet={{}}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+            test={true}
+          >
+            <View
+              dataSet={{}}
+              style={{}}
+            >
+              <View
+                accessible={false}
+                testID="Image_Icon"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input Password should find the label about show password #Button_Input_securePassword 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "50%",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E0E0E0",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={32}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={true}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value=""
+        />
+        <View
+          dataSet={{}}
+          style={{}}
+        />
+        <View
+          accessibilityLabel="Exibir senha"
+          accessibilityRole="button"
+          accessible={false}
+          collapsable={false}
+          colorScheme="primary"
+          dataSet={{}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "borderRadius": 9999,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 10,
+            }
+          }
+          testID="Button_Input_securePassword"
+        >
+          <View
+            dataSet={{}}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+            test={true}
+          >
+            <View
+              dataSet={{}}
+              style={{}}
+            >
+              <View
+                accessible={false}
+                testID="Image_Icon"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input Phone render component with variant phone #TextInput_Input 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "49.960140961888925%",
+              "transform": [
+                {
+                  "scale": 0.9998405638475557,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": -0.00797180762221572,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#12F2AA",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="phone-pad"
+          maxLength={15}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value="(21) 99999-9999"
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input Phone render component with variant phone #TextInput_Input 2`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "49.91112356291089%",
+              "transform": [
+                {
+                  "scale": 0.9996444942516436,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": -0.01777528741782275,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#12F2AA",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="phone-pad"
+          maxLength={15}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value="(21) 99999-9"
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input render component #TextInput_Input 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "50%",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E0E0E0",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={200}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input render component with helper text #Text_Input_helper 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "50%",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#EB3858",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={200}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value=""
+        />
+      </View>
+    </View>
+    <Text
+      accessible={false}
+      dataSet={{}}
+      style={
+        {
+          "backgroundColor": undefined,
+          "color": "#EB3858",
+          "fontFamily": "Quicksand-Regular",
+          "fontSize": 12,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "marginLeft": 16,
+          "textDecorationLine": undefined,
+        }
+      }
+      testID="Text_Input_helper"
+    >
+      helper text
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input render component with invalid #TextInput_Input 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "49.960140961888925%",
+              "transform": [
+                {
+                  "scale": 0.9998405638475557,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": -0.00797180762221572,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#EB3858",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={200}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value="teste"
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Atoms/Input should find the TextInput_Input via acessebilityLabel #Input 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "height": 66,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        dataSet={{}}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "justifyContent": "flex-start",
+              "left": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+            {
+              "top": "50%",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+                {
+                  "translateY": -12,
+                },
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          ]
+        }
+        testID="Text_Input_label"
+      />
+      <View
+        dataSet={{}}
+        isFocused={false}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E0E0E0",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TextInput
+          accessibilityLabel="Input"
+          accessible={false}
+          dataSet={{}}
+          editable={true}
+          keyboardType="default"
+          maxLength={200}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholderTextColor="#a3a3a3"
+          secureTextEntry={false}
+          style={
+            {
+              "backgroundColor": "transparent",
+              "color": "#323232",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": undefined,
+              "fontWeight": undefined,
+              "height": "100%",
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+              "width": "100%",
+            }
+          }
+          testID="TextInput_Input"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
