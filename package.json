@@ -38,7 +38,8 @@
     "test": "jest",
     "update": "yarn update-schema && yarn relay",
     "update-schema": "yarn workspace @workspace/server update-schema",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "reverse": "adb reverse tcp:5001 tcp:5001"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
